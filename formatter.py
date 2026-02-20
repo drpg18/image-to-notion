@@ -1,8 +1,7 @@
 from detector import detect_tables
 
 def format_notes(text):
-    return text.upper()
+    return text
 
 def format_table(image):
-    tables = detect_tables(image)
-    return tables
+    return detect_tables(image)
